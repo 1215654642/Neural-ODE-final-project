@@ -15,5 +15,10 @@ pip install pytorch-lightning
 ## Code structure
 Firstly, standard and basic Neural ODE model is defined in `Neural_ODE.py` and `ODE_solver.py` defines three black-box ODE solvers. Then `MNIST.py` contains codes for supervised learning of Neural ODE model, `ODE-LSTM.py` contains codes for applying ODE-LSTM model as time-series model using climate data as input. Finally, `latent.py` contains codes for Latent ODE using generative random spirals data as input.
 ## Examples
-1. In first experiment, run `MNIST.py` and corresponding result would be provided. The type of applied black-box solver could be changed inside this file.
+1. In the first experiment, run `MNIST.py` and corresponding result would be provided. The type of applied black-box solver could be changed inside this file.
 ![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/euler.png)
+2. In the second experiment, run `ODE-LSTM.py` for applying ODE-LSTM model as time-series model which takes Dehli climate data as input and makes predictions and extropolations.
+![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/temp.jpg)
+3. In the final experiment, run `latent.py` for applying Latent ODE which generates random spirals as input.
+![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/spirals reconstruceted.png)
+
