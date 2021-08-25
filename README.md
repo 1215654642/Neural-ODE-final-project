@@ -20,5 +20,4 @@ Firstly, standard and basic Neural ODE model is defined in `Neural_ODE.py` and `
 2. In the second experiment, run `ODE-LSTM.py` for applying ODE-LSTM model as time-series model which takes Dehli climate data as input and makes predictions and extropolations.
 ![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/temp.jpg)
 3. In the final experiment, run `latent.py` for applying Latent ODE which generates random spirals as input.
-![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/spirals reconstruceted.png)
-
+![](https://github.com/1215654642/Neural-ODE-final-project/raw/master/results/spirals%20reconstruceted.png)
